@@ -1,19 +1,19 @@
 # hello-arcgis
 
-## Project setup
+## 安装依赖
 ```
-npm install
+cnpm install
 ```
 
-### Compiles and hot-reloads for development
+### 开发模式并热启动
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### 打包
 ```
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 不懂看这里
+ [vue cil 官网](https://cli.vuejs.org/config/).
