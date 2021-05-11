@@ -7,7 +7,8 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
+    "@arcgis/core": "^4.19.1",
+    "core-js": "^3.11.0",
     "esri-loader": "^3.0.0",
     "register-service-worker": "^1.7.1",
     "view-design": "^4.5.0",

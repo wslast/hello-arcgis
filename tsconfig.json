@@ -38,3 +38,4 @@
     "node_modules"
   ]
 }
+//同学你好 我建议你不要这样做 没有必要将 定义文件 都放置在一个地方 而是因为以写 ts 代码的思想 将类型文件看成是代码的一部分 如果你想实现全局类型 ，那么可以在 根目录下 新建一个 .d.ts 文件，然后将想要使用的类型使用 declare 关键字进行一个声明，文档在这里： https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html 类似 declare const jQuery: string declare interface TestProps { hello: string; } jQuery 变量 和 TestProps 类型现在全局可以使用 特别注意这个文件添加以后，如果想生效，要重启一下编辑器 12021-01-21 15:32:24

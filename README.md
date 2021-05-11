@@ -1,6 +1,6 @@
 # hello-arcgis
 
-## 安装依赖
+### 安装依赖
 ```
 cnpm install
 ```
