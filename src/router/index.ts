@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import VueRouter, {RouteConfig} from 'vue-router'
 import Home from '../views/Home.vue'
-import MapView from '../views/MapView.vue'
 
 Vue.use(VueRouter)
 
@@ -10,11 +9,6 @@ const routes: Array<RouteConfig> = [
         path: '/',
         name: 'Home',
         component: Home
-    },
-    {
-        path: '/MapView',
-        name: 'MapView',
-        component: MapView
     },
     {
         path: '/about',
