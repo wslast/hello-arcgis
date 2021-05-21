@@ -1,4 +1,4 @@
-# hello-arcgis
+# WebGis-ArcGis
 
 ### 安装依赖
 ```
@@ -7,12 +7,12 @@ cnpm install
 
 ### 开发模式并热启动
 ```
-npm run serve
+cnpm run serve
 ```
 
 ### 打包
 ```
-npm run build
+cnpm run build
 ```
 
 ### 不懂看这里
